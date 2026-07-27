@@ -2,9 +2,9 @@
 
 You can view the full PDF documentation directly on GitHub:
 
-👉 [View the ISTQB CT-AI GASQ Mock Exam] (https://examunit.onlineexams.de/#/startpage).
+👉 [View the ISTQB CT-AI GASQ Mock Exam](https://examunit.onlineexams.de/#/startpage).
 
-👉 [View the ISTQB CT-AI other Mock preparation] (https://mockexamnetwork.com/exams/istqb-ai/).
+👉 [View the ISTQB CT-AI other Mock preparation](https://mockexamnetwork.com/exams/istqb-ai/).
 
 👉 [View the ISTQB CT-AI questions 1](./ISTQB_CTAI_V2.0_SampleExam-Questions-v2.1.pdf).
 
