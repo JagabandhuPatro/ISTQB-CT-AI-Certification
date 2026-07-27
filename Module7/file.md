@@ -1,32 +1,27 @@
-# Module 2: Quality Characteristics for AI-Based Systems
+# Module 7: Machine Learning Development Testing
 
-Welcome to Module 2 of the ISTQB CT-AI study guide. In this section, we cover the foundational concepts of Artificial Intelligence, how it differs from traditional software, and the implications for Quality Assurance. 
+Welcome to Module 7 of the ISTQB CT-AI study guide. In this section, we cover the foundational concepts of Artificial Intelligence, how it differs from traditional software, and the implications for Quality Assurance. 
 
 ## 📺 Video Lecture
 
 > **Watch the Chapter Video:**  
-> [![Module 2 Video](https://img.shields.io/badge/Watch_on-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/esx6esJAAiE)  
+> [![Module 7 Video](https://img.shields.io/badge/Watch_on-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/IKou1v_v1zQ)  
 
 ---
-# ISTQB CT-AI Syllabus: Quality Characteristics and Acceptance Criteria
+# ISTQB CT-AI Syllabus: Machine Learning Development Testing
 
-## Quality Characteristics for AI-Based Systems: AI-Specific Quality Characteristics
-* AI systems introduce unique, domain-specific quality characteristics beyond standard ISO/IEC 25010 models, most notably adaptability, autonomy, and flexibility.
-* Testers must meticulously evaluate *adaptability* to verify that the machine learning model correctly evolves its behavior when exposed to new data without degrading existing performance.
-* Validating *autonomy* requires designing test scenarios that ensure the AI can operate safely and make decisions without human intervention strictly within its defined operational design domain.
-* Traditional software quality metrics, such as reliability and maintainability, must be redefined to account for the probabilistic nature, data dependency, and non-determinism inherent to ML architectures.
+## Machine Learning Development Risks and Mitigations
+* The development of ML systems introduces unique risks such as algorithmic bias, limited explainability, and non-determinism, which testers must actively identify and address.
+* Safety and ethical issues represent critical risks in AI projects, meaning QA must integrate transparency checks and mitigate side effects to prevent unintended harm.
+* Testers must participate in risk-based testing strategies that cover the full machine learning lifecycle, from data preparation right through to final deployment.
+* Mitigating these risks often requires specialized approaches beyond traditional testing, including applying AI-specific testing methods to address challenges like reward hacking and unpredictability.
+* By understanding both the mathematical underpinnings and the environmental constraints of the ML model, QA can help formulate a robust test strategy that counteracts these inherent development risks.
 
-## Quality Characteristics for AI-Based Systems: AI and Safety
-* Safety testing for AI-based systems extends far beyond physical harm, requiring QA to also mitigate psychological, financial, and societal risks caused by unintended algorithmic behaviors.
-* Testers must actively design adversarial test cases to identify "reward hacking," a failure mode where a reinforcement learning model optimizes its objective function using unsafe or unintended shortcuts.
-* Robust safety assessment demands the generation of extreme edge-cases and out-of-distribution data sets to ensure the AI degrades gracefully rather than failing catastrophically.
-* Compliance with emerging AI safety standards dictates that QA must verify that fail-safe mechanisms and human-in-the-loop override controls function flawlessly during critical anomalies.
-
-## Acceptance Criteria for AI-Based Systems
-* Defining acceptance criteria for AI components is inherently complex because absolute determinism and 100% correctness are mathematically impossible in probabilistic systems.
-* Instead of binary pass/fail conditions, QA and architectural stakeholders must collaborate to establish statistically significant thresholds, such as minimum precision or maximum false positive rates.
-* Comprehensive acceptance criteria must explicitly include fairness constraints, guaranteeing the model performs equitably and avoids algorithmic bias across all demographic slices in the test dataset.
-* To ensure end-to-end reliability, the criteria must mandate specific performance levels for both the isolated machine learning model and the broader architectural ecosystem it integrates into.
-
+## Machine Learning System Deployment Testing
+* Validating an AI system during deployment requires specialized operational strategies to monitor how the model interacts with real-world, unseen data.
+* Testers evaluate system-level behavior in production environments by utilizing deployment testing approaches such as canary testing and shadow testing.
+* Because AI models are prone to performance degradation over time, deployment testing must include continuous monitoring in operation to actively detect data drift and concept drift.
+* QA focuses heavily on evaluating the operational limits of the deployed AI, guaranteeing that the model maintains required quality characteristics like safety and reliability once live.
+* Post-deployment, feedback loops from real-world usage and continuous defect analysis help optimize ongoing regression testing and inform future model retraining efforts.
 ---
-[⬅️ Back to Main Guide](../README.md) | [Next: Module 3 ➡️](../Module3/file.md)
+[⬅️ Back to Main Guide](../README.md)
