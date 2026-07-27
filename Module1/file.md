@@ -31,4 +31,4 @@ AI components rarely live in isolation. They are integrated into larger software
 * **Supervised vs. Unsupervised Learning:** Focus on how you would approach testing a system where the "correct" answer isn't labeled (Unsupervised).
 
 ---
-[⬅️ Back to Main Guide](./README.md) | [Next: Module 2 ➡️](./file.md)
+[⬅️ Back to Main Guide](../README.md) | [Next: Module 2 ➡️](./file.md)
