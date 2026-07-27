@@ -5,8 +5,7 @@ Welcome to Module 1 of the ISTQB CT-AI study guide. In this section, we cover th
 ## 📺 Video Lecture
 
 > **Watch the Chapter Video:**  
-> [![Module 1 Video](https://img.shields.io/badge/Watch_on-YouTube-red?style=for-the-badge&logo=youtube)](YOUR_VIDEO_LINK_HERE)  
-> *(If using a cloud drive, you can use: [Watch on AWS S3 / Google Drive](YOUR_CLOUD_LINK_HERE))*
+> [![Module 1 Video](https://img.shields.io/badge/Watch_on-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/pnII5Vcm2Q0)  
 
 ---
 
@@ -31,4 +30,4 @@ AI components rarely live in isolation. They are integrated into larger software
 * **Supervised vs. Unsupervised Learning:** Focus on how you would approach testing a system where the "correct" answer isn't labeled (Unsupervised).
 
 ---
-[⬅️ Back to Main Guide](../README.md) | [Next: Module 2 ➡️](./file.md)
+[⬅️ Back to Main Guide](../README.md) | [Next: Module 2 ➡️](../Module2/file.md)
