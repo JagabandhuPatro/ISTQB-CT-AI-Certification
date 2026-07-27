@@ -15,8 +15,8 @@ Below are the links to the study materials I have created.
 * [Module 5: Input Data Testing for Machine Learning Systems](./Module5/file.md)
 * [Module 6: Model Testing for Machine Learning Systems](./Module6/file.md)
 * [Module 7: Machine Learning Development Testing](./Module7/file.md)
-* [Syllabus](./practice-exams)
-* [Practice Questions & Mock Scenarios](./practice-exams)
+* [Syllabus](./Syllabus/file.md)
+* [Practice Questions & Mock Scenarios](./MockExam/file.md)
 
 ## 📝 Steps to Write the ISTQB CT-AI Exam
 
